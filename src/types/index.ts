@@ -7,7 +7,12 @@ export type Weekday =
   | "saturday"
   | "sunday";
 
-export type Timetable = Record<Weekday, string[]>;
+export type Lecture = {
+  subject: string;
+  time: string;
+};
+
+export type Timetable = Record<Weekday, Lecture[]>;
 
 export type AttendanceStatus =
   | "attended"

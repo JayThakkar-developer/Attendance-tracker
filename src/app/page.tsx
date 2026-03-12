@@ -3,8 +3,8 @@ import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-zinc-100 p-6 pb-24">
-      <h1 className="text-3xl font-bold mb-4">
+    <main className="min-h-screen bg-zinc-100 text-zinc-900 p-6 pb-24">
+      <h1 className="text-3xl font-bold mb-4 text-zinc-900">
         Attendance Tracker
       </h1>
 
